@@ -1,175 +1,130 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!-- read style-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-light_blue.min.css">
-<link rel="stylesheet" href="css/styles.css">
-<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <!-- header-->
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!--Title-->
-      <span class="mdl-layout-title">AI 研究開発チーム</span>
-    </div>
-  </header>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=chrome">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Airion inc.</title>
+	<meta name="keywords" content="Airion, AI, DX, IT"/>
+	<meta name="theme-color" content="#ffffff">
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/cardio.css">
+</head>
 
-  <!--Menu icon(left top)-->
-  <!--Here, the menu icon is listed in the left top-->
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">AI研究開発チーム</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="#member">Member</a>
-      <a class="mdl-navigation__link" href="#contact">Contact</a>
-    </nav>
-  </div>
+<body>
+	<div class="preloader">
+		<img src="img/loader.gif" alt="Preloader image">
+	</div>
+	<nav class="navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right main-nav">
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<header>
+		<div class="container">
+			<div class="table">
+				<div class="header-text">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h1	 class="light white">株式会社 Airion</h1>
+							<h3 class="white typed">AIで世界はより便利になる</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="section gray-bg">
+		<div class="container">
+			<a id="about"></a>
+			<div class="row title text-center">
+				<h2 class="margin-top">Airionとは</h2>
+				<h4 class="light muted">
+	      東京大学大学院情報理工学系出身の大学院生によるスタートアップ会社でAIなどの計算機技術を用いてDX事業を支援する会社です。
+	      プロジェクトの設計・AIの開発など計算機技術に関する多岐に渡るサービスを提供しており、AIを用いて世界をより便利にするというVisionを掲げて活躍しています。</h4>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/Ohkuma.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h4 class="white">東京大学大学院 情報理工学系研究科 博士課程所属</h4>
+								<h5 class="light light-white">人工知能の国際会議に採択される他、多数の受賞経験あり。</h5>
+							</div>
+						</div>
+						<div class="title">
+							<h4>大熊拓海</h4>
+							<h5 class="muted regular">代表取締役</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <main class="mdl-layout__content">
-    <h1>Who are we?</h1>
-    <span class="descriptions">
-      私たちはAIなどの計算機技術を用いてDX事業を支援する会社です。
-      メンバーは東京大学大学院情報理工学系研究科所属の大学院生でAIの研究を行なっています。
-      プロジェクトの設計・AIの開発など計算機技術に関する多岐に渡るサービスを提供しています。
-    </span>
-    <hr class="div_line"/>
-
-    <a id="member"></a>
-    <h1>Member</h1>
-    <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col">
-        <h2>大熊拓海</h2>
-        <img src="figures/Ohkuma.png" alt="intro" title="Ohkuma">
-      </div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <div class="achievement">
-          <ul class="mdl-list">
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                研究テーマは画像および機械学習
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                国際学会等で論文採択および受賞
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                競技プログラミング全国大会出場
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                自動運転プロジェクトで開発実績
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                GitHub<a href="https://github.com/OhkumaTakumi">リンク</a>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="mdl-cell mdl-cell--2-col"></div>
-    </div>
-
-    <hr class="member_line"/>
-    <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col">
-        <h2>鹿島大河</h2>
-        <img src="figures/Kashima.png" alt="intro" title="Kashima">
-      </div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <div class="achievement">
-          <ul class="mdl-list">
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                研究テーマは画像および機械学習
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                国際学会等で論文採択および受賞
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                DeNA、Cyber Agent、Preferred Networksでインターン
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                IOSアプリの開発で受賞
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                GitHub<a href="https://github.com/KT19">リンク</a>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="mdl-cell mdl-cell--2-col"></div>
-    </div>
-
-    <hr class="member_line"/>
-    <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col">
-        <h2>桑原亮介</h2>
-        <img src="figures/Kuwabara.png" alt="intro" title="Kuwabara">
-      </div>
-      <div class="mdl-cell mdl-cell--6-col">
-        <div class="achievement">
-          <ul class="mdl-list">
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                研究テーマは自然言語処理および機械学習
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                国際学会等で論文採択および受賞
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                NTT研究所、国立科学研究所、日本IBMなどで勤務
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                自然言語処理AIの全国大会で優勝
-              </span>
-            </li>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                GitHub<a href="https://github.com/ryosuke071111">リンク</a>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="mdl-cell mdl-cell--2-col"></div>
-    </div>
-
-    <hr class="div_line"/>
-    <a id="contact"></a>
-    <h1>Contact us</h3>
-    <div class="access">
-      共同研究やAI活用のコンサルなど、依頼の際は以下まで連絡お願いします。
-      <div class="mail_adress">airion2021@gmail.com</div>
-    </div>
-
-    <!--footer-->
-    <footer class="mdl-mini-footer">
-      <div class="mdl-mini-footer__left-selection">
-        <div class="mdl-logo">AI研究開発チーム</div>
-      </div>
-    </footer>
-  </main>
-</div>
+	<footer>
+		<div class="container" id="contact">
+			<div class="row">
+				<div class="text-center-mobile">
+					<h3 class="white">Contact</h3>
+					<h3 class="light white">共同研究やAI活用のコンサルなど、依頼の際は以下のメールアドレス、もしくはGoogleフォームの入力をお願いします。</h3>
+					<h4 class="light white">airion2021@gmail.com</h4>
+					<h5>
+						<a href="https://docs.google.com/forms/d/e/1FAIpQLSdea4bM57F7dpp03NqdJdssyYZbdtK9LzAzhaAHjoadOp1XMg/viewform?usp=sf_link">Google formからの問い合わせはこちら</a>
+					</h5>
+				</div>
+			</div>
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8">
+					<p>株式会社 Airion</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<!-- Scripts -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typewriter.js"></script>
+	<script src="js/jquery.onepagenav.js"></script>
+	<script src="js/main.js"></script>
+</body>
 
 </html>
